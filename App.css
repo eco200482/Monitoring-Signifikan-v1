@@ -1,0 +1,63 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container select {
+  padding: 5px;
+  flex: 1 1 200px;
+}
+
+.form-container button {
+  padding: 8px 16px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.styled-table th {
+  background-color: red;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.styled-table td {
+  text-align: center;
+}
+
+.styled-table td.number {
+  text-align: right;
+}
+
+.filter-container {
+  margin-bottom: 15px;
+  text-align: center;
+}
